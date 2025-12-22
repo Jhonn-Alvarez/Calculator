@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "calculator",
     "name": "Calculator",
     "slug": "Calculator",
     "version": "1.0.0",
@@ -22,8 +23,9 @@
       },
       "edgeToEdgeEnabled": true
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
